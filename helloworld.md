@@ -14,5 +14,6 @@ MarkDown Language
     * to
     * jfkdslj
     * jfdklja
-    
 2. Второй номер
+
+~~Зачеркнутый текст~~
