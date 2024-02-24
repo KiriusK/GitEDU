@@ -11,7 +11,15 @@ pwd
 ```sh
 dir 
 ```
-Linux, MacOS
+Linux, MacOS:
 ```sh
 ls
+```
+Удаление файлов Windows:
+```sh
+del file_name
+```
+Linux, MacOS:
+```sh
+rm file_name
 ```
