@@ -1,4 +1,5 @@
 # Подсказка по Git
+
 ```sh
 git init
 ```
@@ -13,6 +14,10 @@ git add file_name
 
 ```sh
 git restore file_name
+```
+
+```sh
+git restore --staged file_name
 ```
 
 ```sh
