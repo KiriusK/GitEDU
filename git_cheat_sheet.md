@@ -36,13 +36,21 @@ git log
 ```sh
 git log --oneline
 ```
+### Просмотреть журнал с показом веток коммитов:
+```sh
+git log --graph
+```
 ### Перейти в состоянию репозитория с номером hash_number:
 ```sh
 git checkout hash_number
 ```
-### Перейти к состоянию репозитория ветки master:
+### Перейти к последнему состоянию репозитория ветки master:
 ```sh
 git checkout master
+```
+### Перейти к последнему состоянию репозитория ветки branch_name:
+```sh
+git checkout branch_name
 ```
 ### Показывает разницу между текущим сохраненными файлами и последним состоянием репозитория: 
 ```sh
@@ -51,4 +59,20 @@ git diff
 ### Показывает разницу между текущими сохраненными файлами и состоянием репозитория с номером hash_number:
 ```sh
 git diff hash_number
+```
+### Показать ветки:
+```sh
+git branch
+```
+### Создать ветку branch_name:
+```sh
+git branch branch_name
+```
+### Удалить полностью слитую ветку branch_name:
+```sh
+git branch -d branch_name
+```
+### Слить ветку branch_name с текущей веткой:
+```sh
+git merge branch_name
 ```
