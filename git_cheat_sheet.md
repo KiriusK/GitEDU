@@ -81,3 +81,4 @@ git branch -d branch_name
 ```sh
 git merge branch_name
 ```
+другая строка на русском
