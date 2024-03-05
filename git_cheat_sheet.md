@@ -81,3 +81,18 @@ git branch -d branch_name
 ```sh
 git merge branch_name
 ```
+Доделать
+
+```sh
+git remote add origin http://...
+```
+
+git branch -M main
+
+git push -u origin main
+
+git clone
+
+git push
+
+git pull
