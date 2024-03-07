@@ -84,12 +84,11 @@ git merge branch_name
 Доделать
 
 ```sh
+### Для добавления текущего репозитория на Github необходимо выполнить следущие команды (инструкция с Github):
 git remote add origin http://...
-```
-
 git branch -M main
-
 git push -u origin main
+```
 
 git clone
 
