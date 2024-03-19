@@ -79,6 +79,14 @@ git checkout master
 ```sh
 git checkout branch_name
 ```
+### Восстановить файл из ветки при случайном удалении:
+```sh
+git checkout branch_name file_name
+```
+### Восстановить все файлы из ветки при случайном удалении:
+```sh
+git checkout branch_name *
+```
 ### Показывает разницу между текущим сохраненными файлами и последним состоянием репозитория: 
 ```sh
 git diff
